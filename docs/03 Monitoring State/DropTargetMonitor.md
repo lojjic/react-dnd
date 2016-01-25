@@ -7,7 +7,7 @@ DropTargetMonitor
 
 ### Methods
 
-* **`canDrop()`**: Returns `true` if no drag operation is in progress, and the owner's `canDrop()` returns `true` or is not defined.
+* **`canDrop()`**: Returns `true` if there is a drag operation in progress, and the owner's `canDrop()` returns `true` or is not defined.
 
 * **`isOver(options)`**: Returns `true` if there is a drag operation is in progress, and the pointer is currently hovering over the owner. You may optionally pass `{ shallow: true }` to strictly check whether *only* the owner is being hovered, as opposed to a nested target.
 
